@@ -1,0 +1,54 @@
+#logo{
+    width:250px; /* you can use % */
+    height: auto;
+}
+
+#img-div {
+    
+}
+
+.container{
+    position: absolute;
+    width: 500px;
+    height: 200px;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0 0 -250px;
+    text-align: center;
+}
+
+.inner{
+    padding: 10px 10px 10px 10px;
+}
+
+#language-div{
+    display: inline;
+}
+
+#search-input{
+    width: 400px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(116, 116, 116);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(189, 189, 189);
+  }
